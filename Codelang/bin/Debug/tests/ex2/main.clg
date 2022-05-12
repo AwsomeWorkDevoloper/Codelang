@@ -1,0 +1,7 @@
+var name: string = readln("What is your name? ");
+
+while (name == "") {
+    name = readln("What is your name? ");
+}
+
+writeln("Nice to meet you, ${name}");

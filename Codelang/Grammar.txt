@@ -1,0 +1,36 @@
+﻿~ VariableCreation:
+var i: int = 5;
+
+~ VariableAssignment:
+i = 2;
+
+~ CallFunction:
+myFunction();
+
+~ CreateFunction:
+func ( ~Parameters~ ) { ~Statements~ }
+
+~ Parameters:
+x: int, name: string
+
+~ If statements:
+if ( ~ Expression ~ ) { ~ Statements ~ }
+
+~ While loop:
+while ( ~ Expression ~ ) { ~ Statements }
+
+~ For loop:
+for ( ~ Expression ~ ) { ~ Statements }
+
+~ Object:
+object {
+	name: string = "Jeff";
+	age: int = 23;
+	intro: string = ~ CreateFunction ~
+}
+
+~ Class Object:
+class {
+	name: string;
+	age: int;
+}
